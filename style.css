@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: white;
+}
+
+.counter-container {
+  margin: 50px;
+}
+
+#count {
+  margin: 10px 0px;
+  padding: 10px 0px;
+  border-bottom: 1px solid white;
+  width: fit-content;
+}
+.error {
+  margin: 20px 0px;
+  color: red;
+  display: none;
+}
+
+#clear-btn{
+    display: none;
+}
+
+.btns{
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.clear-btn{
+    padding: 10px 25px;
+    color: white;
+    border: 1px solid white;
+    background-color: #000000;
+}
+
+button:hover{
+    cursor: pointer;
+}
